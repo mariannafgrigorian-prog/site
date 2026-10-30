@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+    <div class="site-viewport">
+    <main>
     <!-- HERO -->
   <section class="one">
     <div class="face">
@@ -130,5 +132,23 @@
   <section class="six">
     <h1 class="fear-title">СТРАХ</h1>
   </section>
+    </main>
+  </div>
+
+  <script>
+const main = document.querySelector('.site-viewport main');
+const viewport = document.querySelector('.site-viewport');
+
+function resizeSite() {
+  const scale = Math.min(1, viewport.clientWidth / 1728);
+
+  main.style.transform = `scale(${scale})`;
+  viewport.style.height = `${main.getBoundingClientRect().height}px`;
+}
+
+window.addEventListener('resize', resizeSite);
+window.addEventListener('load', resizeSite);
+resizeSite();
+</script>
 </body>
 </html>

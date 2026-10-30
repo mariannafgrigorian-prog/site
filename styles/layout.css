@@ -8,6 +8,16 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+.site-viewport {
+  width: 100%;
+  overflow: hidden;
+}
+
+.site-viewport main {
+  width: 1728px;
+  transform-origin: top left;
+}
+
 .one {
     position: relative;
     width: 100%;
@@ -38,7 +48,7 @@ body {
     width: 100%;
 
     color: #810303;
-    font-size: 280px;
+    font-size: 350px;
     font-weight: normal;
     line-height: 1;
     text-align: center;
@@ -100,7 +110,7 @@ body {
     width: 100%;
 
     color: #810303;
-    font-size: 300px;
+    font-size: 360px;
     font-weight: normal;
     line-height: 1;
     text-align: center;
@@ -135,13 +145,13 @@ body {
 }
 
 .letter-1 {
-    transform: translate(-100px, 150px) rotate(10deg); font-size: 600px;}
-.letter-2 {transform: translate(260px, 190px) rotate(10deg); font-size: 500px;}
-.letter-3 {transform: translate(500px, 290px) rotate(10deg); font-size: 450px;}
-.letter-4 {transform: translate(780px, 350px) rotate(10deg); font-size: 400px; }
-.letter-5 {transform: translate(970px, 400px) rotate(10deg); font-size: 320px; }
-.letter-6 {transform: translate(1135px, 460px) rotate(10deg); font-size: 270px;}
-.letter-7 {transform: translate(1270px, 500px) rotate(10deg); font-size: 200px;}
+transform: translate(-100px, 200px) rotate(10deg); font-size: 750px;}
+.letter-2 {transform: translate(340px, 235px) rotate(10deg); font-size: 600px;}
+.letter-3 {transform: translate(640px, 330px) rotate(12deg); font-size: 500px;}
+.letter-4 {transform: translate(960px, 405px) rotate(12deg); font-size: 450px; }
+.letter-5 {transform: translate(1180px, 480px) rotate(12deg); font-size: 380px; }
+.letter-6 {transform: translate(1370px, 550px) rotate(14deg); font-size: 300px;}
+.letter-7 {transform: translate(1525px, 600px) rotate(14deg); font-size: 240px;}
 
 .hand {
     position: absolute;
@@ -168,7 +178,7 @@ body {
     left: 43%;
 
     color: white;
-    font-size: 40px;
+    font-size: 50px;
 
     transform: rotate(26deg);
     z-index: 5;
@@ -179,7 +189,7 @@ body {
     left: 3%;
 
     color: white;
-    font-size: 40px;
+    font-size: 50px;
     z-index: 5;
     transform: rotate(5deg);
 }
@@ -209,7 +219,6 @@ body {
 }
 .vector2 {
     position: absolute;
-    top: 225%;
     left: 0;
     width: 130%;
     height: auto;
@@ -229,13 +238,13 @@ body {
 }
 .catalog {
     position: absolute;
-    top: 6%;
+    top: 7%;
     left: 0;
     width: 100%;
     margin: 0;
     text-align: center;
     color: white;
-    font-size: 250px;
+    font-size: 280px;
     font-weight: normal;
     z-index: 10;
 }
@@ -406,12 +415,12 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
-    font-size: 510px;
+    font-size: 610px;
     color:#810303;
     line-height: 1;
     font-weight: 600;
     z-index: 1;
-    opacity: .6;
+    opacity: .5;
 }
 .text {
     position: relative;
@@ -464,8 +473,8 @@ body {
     width: 40%;
     height: auto;
     pointer-events: none;
-    top: 29%;
-    left: 1%;
+    top: 31%;
+    left: 0;
   }
     .line2 {
     position: absolute;
@@ -474,7 +483,7 @@ body {
     height: auto;
     pointer-events: none;
     left: 48%;
-    top: 19%;
+    top: 23%;
   }
   .ellipse {
     position: absolute;
@@ -509,17 +518,17 @@ body {
   .people1 {
     position: absolute;
     color: white;
-    font-size: 40px;
+    font-size: 45px;
     z-index: 3;
-    top: 46%;
+    top: 48%;
     left: 5%;
   }
   .people2 {
     position: absolute;
     color: white;
-    font-size: 40px;
+    font-size: 45px;
     z-index: 3;
-    top: 17%;
+    top: 22%;
     left: 63%;
   }
 
@@ -531,7 +540,7 @@ body {
     height: 50%;
     left: -1%;
     bottom: 0;
-    top: 516%;
+    top: 65%;
     object-fit: fill;
     z-index: 20;
 }
